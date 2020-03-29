@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class TribonacciDefinida
+{
+    public static void main(String Args[])
+    {
+         int a = 0, b = 1, e=1, x;
+         System.out.println("Digite a quantidade de termos que deseja da sequência Tribonacci: ");
+         Scanner aux = new Scanner(System.in);
+         x = aux.nextInt();
+         System.out.println("Seus termos: ");
+         System.out.println("1");
+         System.out.println("1");
+         for(int c=0; c<=x; c++)
+        {       
+            if(x<=2)
+            {
+                e=0;
+                int d = a+b+e;
+                System.out.println(d);
+                a=b;
+                b=d;
+            }
+            else 
+            {
+               int d = a+b+e;
+               System.out.println(d);
+               a=b;
+               b=e;
+               e=d;               
+            }
+        }
+    }  
+}
