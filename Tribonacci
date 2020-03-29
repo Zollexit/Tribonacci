@@ -21,7 +21,7 @@ public class TribonacciDefinida
         {
          System.out.println("1");
          System.out.println("1");
-         for(int c=0; c<=x; c++)
+         for(int c=0; c<(x-2); c++)
          {       
                int d = a+b+e;
                System.out.println(d);
