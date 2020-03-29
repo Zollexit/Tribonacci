@@ -14,11 +14,7 @@ public class TribonacciDefinida
         {       
             if(x<=2)
             {
-                e=0;
-                int d = a+b+e;
-                System.out.println(d);
-                a=b;
-                b=d;
+                
             }
             else 
             {
